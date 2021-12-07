@@ -3,6 +3,6 @@ summa = 0
 skaits = 0
 while sk != 0:
   summa += sk
-  skaits += 1
-  sk = int(input("Ievadi skaitli (0-beigt): "))
+  skaits = skaits + 1
+  sk = sk - 1
 print("Visu ievadito skaitlu aritmetiskais videjais ir ",summa / skaits)
