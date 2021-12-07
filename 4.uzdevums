@@ -1,4 +1,4 @@
-sk = int(input("Ievadu veselu pozitīvu skatli: "))
+sk = int(input("Ievadi skatli "))
 if sk<0:
   sk = sk * -1
 while sk>0:
