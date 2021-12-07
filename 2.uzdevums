@@ -1,4 +1,4 @@
-a = int(input("Ievadi a: "))
-b = int(input("Ievadi b: "))
+a = int(input("Ievadi veselu a: "))
+b = int(input("Ievadi veselu b: "))
 for i in range(a,b):
   print(i)
