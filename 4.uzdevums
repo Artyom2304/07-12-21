@@ -1,6 +1,6 @@
 sk = int(input("Ievadu veselu pozitīvu skatli: "))
 if sk<0:
-  print("Neievadiet negatīvo skaitli")
+  sk = sk * -1
 while sk>0:
   print(sk)
   sk-=1
