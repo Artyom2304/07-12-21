@@ -1,8 +1,8 @@
-sk = int(input("Ievadi skaitli (0-beigt): "))
+sk = float(input("Ievadi skaitli (0-beigt): "))
 summa = 0
 skaits = 0
 while sk != 0:
   summa += sk
-  skaits = skaits + 1
-  sk = sk - 1
-print("Visu ievadito skaitlu aritmetiskais videjais ir ",summa / skaits)
+  skaits += 1
+  sk = float(input("Ievadi skaitli (0-beigt): "))
+print("Visu ievadito skaitlu aritmetiskais videjais ir", summa / skaits)
